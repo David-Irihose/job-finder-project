@@ -143,5 +143,30 @@
       </div>
     </div>
   </section>
+
+  <section id="page-contact" class="page">
+    <div class="contact-wrapper">
+      <h2>Contact Us</h2>
+      <p>Have a question or suggestion? Send us a message!</p>
+
+      <form class="contact-form" onsubmit="submitContact(event)">
+        <label>Your Name</label>
+        <input type="text" id="contactName" placeholder="Enter your name" required />
+
+        <label>Email Address</label>
+        <input type="email" type="email" id="contactEmail" placeholder="you@example.com" required />
+
+        <label>Message</label>
+        <textarea id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div id="contactConfirm" class="contact-confirm" style="display:none;">
+        Thank you! Your message has been received.
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
