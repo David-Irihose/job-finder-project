@@ -30,3 +30,14 @@ for (var i = 0; i < navItems.length; i++) {
     showPage(this.dataset.page);
   });
 }
+// ================= HERO SEARCH =================
+function goToJobsFromHero() {
+  var query = document.getElementById('heroSearch').value;
+  if (query !== '') {
+    document.getElementById('searchInput').value = query;
+  }
+  showPage('jobs');
+  if (query !== '') {
+    searchJobs();
+  }
+}
