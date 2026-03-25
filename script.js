@@ -177,3 +177,10 @@ function showJobs() {
     resultsDiv.appendChild(card);
   }
 }
+
+// ================= CONTACT =================
+function submitContact(e) {
+  e.preventDefault();
+  document.querySelector('.contact-form').style.display = 'none';
+  document.getElementById('contactConfirm').style.display = 'block';
+}
