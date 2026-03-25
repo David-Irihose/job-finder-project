@@ -127,3 +127,76 @@ body {
 .hero-search button:hover {
   background: #21327c;
 }
+
+/* SECTION TITLES */
+.section-title {
+  text-align: center;
+  margin: 50px 20px 20px;
+}
+
+.section-title h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2d1b69;
+}
+
+.section-title p {
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+/* HOW IT WORKS STEPS */
+.steps-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 10px 30px 40px;
+  flex-wrap: wrap;
+}
+
+.step-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 24px;
+  width: 240px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(108, 78, 242, 0.1);
+}
+
+.step-icon {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+}
+
+.step-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d1b69;
+  margin-bottom: 8px;
+}
+
+.step-card p {
+  font-size: 0.88rem;
+  color: #6b7280;
+}
+
+/* CATEGORIES */
+.categories-grid {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px 30px 60px;
+}
+
+
+.category-tag {
+  background: white;
+  border: 2px solid #202752;
+  color: #1c1639;
+  padding: 10px 22px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: inline-block;
+}
