@@ -65,3 +65,65 @@ body {
   background: #4e85f2;
   color: #ffffff;
 }
+
+/* PAGE SYSTEM */
+.page {
+  display: none;
+}
+
+.page.active-page {
+  display: block;
+}
+
+/* HOME: HERO */
+.hero {
+  background: #394b81;
+  color: white;
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #ddd6fe;
+  margin-bottom: 30px;
+}
+
+.hero-search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.hero-search input {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  width: 280px;
+  max-width: 90%;
+}
+
+.hero-search button {
+  padding: 10px 20px;
+  background: #4e85f2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero-search button:hover {
+  background: #21327c;
+}
