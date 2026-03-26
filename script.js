@@ -133,7 +133,6 @@ async function searchJobs() {
     } else {
       message = 'Something went wrong. Please try again later.';
     }
-
     resultsDiv.innerHTML =
       '<p style="text-align:center;color:red;">' + message + '</p>';
   }
