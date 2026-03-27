@@ -144,6 +144,7 @@ function showJobs() {
     return;
   }
 
+  
   var filtered = [];
 
   for (var i = 0; i < allJobs.length; i++) {
