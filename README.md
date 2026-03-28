@@ -21,7 +21,7 @@ This project integrates the **Remotive API**, a public API that provides real-ti
 - **Data Source**: Remote job listings from global companies  
 - **Usage**: The application fetches data dynamically based on user search input  
 
-This API was chosen because it is free, reliable,
+This API was chosen because it is free, reliable, and provides comprehensive job data without requiring an API key.
 
 
 ## Technologies Used
