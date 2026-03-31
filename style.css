@@ -19,11 +19,13 @@ body {
   align-items: center;
   justify-content: space-between;
   background: #2c1f65;
-  padding: 18px 30px;
+  padding: 14px 24px;
   position: sticky;
   top: 0;
   z-index: 100;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .nav-logo {
@@ -51,6 +53,7 @@ body {
   letter-spacing: 1.5px;
   text-transform: lowercase;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -71,6 +74,31 @@ body {
 .nav-links li a.active {
   background: #4e85f2;
   color: #ffffff;
+}
+
+/* MOBILE NAVBAR - CSS only, no JS needed */
+@media (max-width: 520px) {
+  .navbar {
+    padding: 12px 16px;
+  }
+
+  .nav-logo-name {
+    font-size: 1.2rem;
+  }
+
+  .nav-logo-sub {
+    font-size: 0.78rem;
+  }
+
+  .nav-links {
+    gap: 2px;
+  }
+
+  .nav-links li a {
+    padding: 6px 10px;
+    font-size: 0.82rem;
+    border-radius: 6px;
+  }
 }
 
 /* PAGE SYSTEM */
@@ -172,6 +200,7 @@ body {
   text-align: center;
   box-shadow: 0 4px 16px rgba(108, 78, 242, 0.1);
 }
+
 .step-card h3 {
   font-size: 1.1rem;
   font-weight: 700;
