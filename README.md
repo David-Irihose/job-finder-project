@@ -2,6 +2,10 @@
 
 A real-time remote job search application built with pure HTML, CSS, and JavaScript. This platform connects users to the latest remote work opportunities worldwide, sourced directly from the Remotive API.
 
+## DEMO Video
+
+[Watch the Demo Video](https://www.loom.com/share/66fd8738b60b4c45a463d161df11fcb7)
+
 ## Features
 
 - Home Page: Landing page with hero search and categories
